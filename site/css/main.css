@@ -154,26 +154,26 @@ pre > code {
 /* Top Navigation Bar */
 
 .navbar-inverse {
-    background-color: #ffffff;
+    background-color: #41178a;
 }
 
 .navbar-inverse .navbar-brand {
-  background-color: #362ae2;
+  background-color: #4d178a;
   color: white; }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  background-color: #362ae2; }
+  background-color: #4d178a; }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #362ae2; }
+  color: white; }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #b7a57a; }
+  color: white; }
 
 .navbar-right {
-  background-color: #362ae2; }
+  background-color: #29178a; }
 
 .navbar-inverse .navbar-right > li > a,
 .navbar-inverse .navbar-right > li > a,
