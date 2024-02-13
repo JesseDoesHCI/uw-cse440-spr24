@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>Projects - CSE 440</title>
+ 
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(0,4);
+      var basePath = basePathArray.join('/');
+
+      // CSS files to load
+      var cssSources = [
+        '/site/css/bootstrap.min.css',
+        '/site/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/site/js/jquery.min.js',
+        '/site/js/bootstrap.min.js',
+        '/site/js/nav-bar.js',
+        '/site/js/footer.js'
+      ];
+  
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "/site/js/load-sources.js\'><\/script>");
+      
+      function toggle_instructions() {
+		  var x = document.getElementById("instructions");
+		  var y = document.getElementById("card_instructions");
+		  if (x.style.display === "none") {
+		    x.style.display = "block";
+		    y.style.borderBottomLeftRadius = "0px";
+    		y.style.borderBottomRightRadius = "0px";
+		  } else {
+		    x.style.display = "none";
+		    y.style.borderBottomLeftRadius = "4px";
+    		y.style.borderBottomRightRadius = "4px";
+		  }
+		}
+    </script>
+
+  </head>
+  
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+          
+      <!-- Begin page content -->
+    
+      <!-- Edit main page content -->
+      <h1>Project Theme</h1>
+      <p>
+        Theme: Self and Community Care
+      </p>
+      <p>
+        <b>“Shouting ‘self-care’ at people who actually need community care is how we fail people” — Nakita Valerio</b>
+      </p>
+      <p>
+        Practicing self-care is pivotal for managing our well-being. However, often when people practice and engage in discourse around self-care, community care is left out. Continuing to erase this vital component of self-care can inadvertently do a disservice to our personal well-being. Thus, the project theme for this quarter will be “Self and Community Care”. This can relate broadly to designing for users who are interested in learning, connecting, and practicing new ways to enhance the well-being of themselves and their communities.
+      </p>
+
+	
+	<div class="card">
+	  <ul class="list-group list-group-flush">
+	    <li class="list-group-item" id="card_instructions" style="background-color: #362ae2; color: #ffffff;" onclick="toggle_instructions()">Project instructions for teams</li>
+	    <li class="list-group-item" id="instructions" style="display: none;">
+	    	
+        <P>
+          Your team’s goal is to choose a community of people and design a product that empowers them to better manage their personal and communal well-being. You may target any relevant user groups, such as high school students, college graduates, people living in the city, or parents! However, we encourage you to try to stretch yourselves and pick a user group that you all do not consider yourself a member of; this is so that you will not rely too much on your own experiences during user research as personal biases can potentially affect your research findings. Over the course of the quarter, your team will work on designing a system to help this group of people learn and manage acts of care to improve not only their personal well-being, but connect and cultivate a sense of togetherness within their larger community.
+        </P>
+        <p>It will be important to define the following: </p>
+        <ul>
+          <li>Who are the members of this community?</li>
+          <li>What is the context that defines this community? Where is the community located?</li>
+          <li>What are some assumed problems and challenges that you might address?</li>
+        </ul>
+        <p>Some broad directions: </p>
+        <ul>
+          <li>Self-care (for example; sleep scheduling, relaxing activities, meal prepping, exercising, etc.)</li>
+          <li>Community Care (for example; food drive, starting and maintaining a community garden, group meditation, etc.)</li>
+          <li>Activism (for example; general protesting, mental health rights, creating support groups in the community, etc.)</li>
+        </ul>
+      
+        <p>
+          During this course, you will work with a team of students to narrow down on a community to focus on, learn about their needs, and design an intervention. In order to do this you will need to do secondary research to learn more about this community and conduct qualitative research to find first-hand opportunities and problems that you might address this quarter.
+        </p>
+        <p>
+          As part of your project, you will need to define what a specific community’s needs are that your project can help support, and what activity you would like to design to help address this need. While your design may not be able to address this head-on, it may be useful to consider the conditions that have made engaging with this community challenging while conducting user research and learning from your target group. Think about how the activity you chose is currently supported via technology (or not), what doesn’t work about current ways of supporting it, and how your solution will do this better. We also encourage you all to be cognizant about designing for intersectional facets of identity, as different intersecting sociocultural factors (e.g., gender, race, class, language) can influence how people choose to engage in self or community care. Finally, be specific in the community and specific target users you select! The specificity of addressing a particular group of people allows you to deeply think about what makes the group unique and how you would best want to support them. So, dive in and see what you can come up with!
+        </p>
+      
+        <p>Critical Considerations: </p>
+        <ul>
+          <li>It is critical that you keep an open mind to learning about potential problems and challenges for your chosen community.</li>
+          <li>Be sure to choose a community that you are either not a direct part of or one in which you can remain neutral to their needs and stories.</li>
+          <li>You need to consider a local community that you have access to throughout this course. This will require you to reach out to and interview members of this community.</li>
+          <li>Get creative! Don’t default to apps, explore alternative systems.</li>
+        </ul>
+	  	
+	    </li>
+	  </ul>
+	</div>
+	
+
+
+</div>
+
+
+   
+
+    
+    
+    
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>

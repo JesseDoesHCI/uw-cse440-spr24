@@ -1,0 +1,453 @@
+/**
+ * Reset some basic elements
+ */
+html {
+  scroll-behavior: smooth; }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font: 400 16px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  padding-top: 20px;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px; }
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; 
+  max-height: 100%;
+  }
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 14px; }
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ * Headings
+ */
+h5, h6 {
+  font-weight: 300; }
+
+h1, h2, h3, h4 {
+  font-weight: 600; }
+
+/**
+ * Links
+ */
+a {
+  color: #4e489c;
+  text-decoration: none; }
+a:visited {
+  color: #4e489c; }
+a:hover {
+  color: #b7a57a;
+  text-decoration: underline; }
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic; }
+blockquote > :last-child {
+  margin-bottom: 0; }
+
+/**
+ * Code formatting
+ */
+pre, code {
+  font-family: "Inconsolata", monospace;
+  font-size: 100%;
+  background-color: #f7f7f9;
+}
+
+code {
+  padding: 1px 5px; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto; }
+
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0; }
+
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  position: relative; }
+
+/**
+ * Site footer
+ */
+.site-footer {
+  margin: 20px 20px 50px 20px;
+  padding: 30px 0; }
+
+.cse-wordmark {
+    width:260px;
+    float:left;
+}
+
+.site-footer-right{
+    float:right;
+}
+
+.site-header {
+  border-bottom-style: none; }
+
+.site-footer {
+  padding: 10px 0;
+}
+
+/* Top Navigation Bar */
+
+.navbar-inverse {
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  background-color: #362ae2;
+  color: white; }
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  background-color: #362ae2; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #362ae2; }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #b7a57a; }
+
+.navbar-right {
+  background-color: #362ae2; }
+
+.navbar-inverse .navbar-right > li > a,
+.navbar-inverse .navbar-right > li > a,
+.navbar-inverse .navbar-right > li > a:hover,
+.navbar-inverse .navbar-right > li > a:focus
+ {
+	color: white; 
+ }
+ 
+ .navbar-toggle {
+ 	background-color: #362ae2;
+ }
+ 
+ .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #f5b90a;
+}
+ 
+ 
+
+/* Floating Navigation Box */
+
+.nav-box {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    float: right;
+    width: 10em;
+    margin: 0px 20px 0px 20px
+}
+
+.nav-box ul {
+    list-style: none;
+    margin: 0px 10px 10px 20px;
+}
+
+.nav-box-header {
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+}
+
+/*
+ * Use this as needed to adjust the spacing between the menu items across the top.
+ * To avoid wrapping, the menus and course title should fit within 768 pixels.
+ */
+/*.nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+
+/*
+ * If the course title is long, uncomment and adjust the max-width to make it behave on a very narrow
+ * display (such as a phone display) without wrapping.
+ */
+/*@media screen and (max-width: 400px) {
+  .navbar-brand {
+      width: calc(100% - 70px);
+      overflow:hidden;
+      white-space: nowrap;
+  }
+}*/
+
+.sticky {
+    position: fixed;
+}
+
+.nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
+    background-color: var(--teal);
+    color: #4b2e83;
+    width: 100%;
+    text-decoration: none;
+}
+
+.side-nav-1 {
+    padding-left: 20px;
+}
+
+.nav-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+  	margin-left: 0px;
+
+}
+
+.nav-sidebar li a {
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+}
+.nav-link {
+    padding: 0.2em 0.5em;
+}
+
+.nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
+    background-color: #362ae2;
+    color: white;
+    width: 100%;
+    
+}
+
+.section {
+    border-top: 1px solid #000000;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    page-break-inside: auto;
+}
+
+.subsection {
+    padding-top: 2em;
+    page-break-inside: auto;
+}
+
+.calendar {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.calendar .header {
+    padding-bottom: 0;
+    font-weight: bold;
+    align-items: flex-end;
+    color: #66686B;
+    border-bottom: solid #66686B;
+    border-bottom-width: 0.5px;
+}
+
+.calendar .day, .calendar .header {
+    padding: 0.5em 10px;
+    margin-bottom: 0.2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*border-bottom: #cccccc 2px dashed;*/
+}
+
+
+.oddday {
+	background-color: #faf9fe;
+}
+
+.evenday {
+	background-color: #e9e8fc;
+}
+
+
+
+
+/*.calendar .day:hover {
+    background-color: #bbbbbb;
+}*/
+
+.calendar .week, .calendar .date, .calendar .topic, .calendar .links, .calendar .assignments, .calendar .milestone {
+    flex-shrink: 0;
+    margin-left: 2px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.calendar .theme {
+    font-weight: bold;
+    margin-top: 10px;
+    /*border-top: #4b2e83 2px solid;*/
+    /*border-bottom: #4b2e83 2px solid;*/
+   /*background-color: #fdf4d9;*/
+    font-size: 20px;
+}
+
+.calendar .week {
+    flex-basis: 10ch;
+    flex-grow: 0;
+}
+
+.calendar .date {
+    flex-basis: 10ch;
+    flex-grow: .3;
+}
+
+.calendar .topic, .calendar .links, .calendar .assignments,  .calendar .milestone {
+    flex-basis: 8ch;
+    flex-grow: .9;
+}
+
+
+
+
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.card > ul, .card_project > ul  {
+	margin-left: 0px;
+}
+
+
+.card_project {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 24rem;
+    height: 45rem;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-img {
+    width: 25rem;
+    height: 20rem;
+    display:table-cell; 
+    vertical-align:middle;
+    text-align: center;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.card_project .btn-left {
+	background-color: #f9fbfe;
+}
+
+.card_project .btn-right {
+	background-color: #e9e8fc;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.btn-left:hover, .btn-left:focus, .btn-left:active, .btn-left.active, .btn-left:hover>a, .btn-right:hover>a,
+.btn-right:hover, .btn-right:focus, .btn-right:active, .btn-right.active {
+	color: #ffffff;
+    background-color: #362ae2;
+    border-color: #000000;
+}
+
+.btn-left>a:hover, .btn-left>a:focus, .btn-left>a:active, .btn-left>a.active,
+.btn-right>a:hover, .btn-right>a:focus, .btn-right>a:active, .btn-right>a.active {
+    color: #fff;
+    background-color: #362ae2;
+    border-color: #000000; /*set the color you want here*/
+   text-decoration: none;
+}
+
