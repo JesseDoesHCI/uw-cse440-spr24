@@ -11,6 +11,10 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!-- Include this script in order to dynamically load CSS and JS files -->
     <!-- Only edit if you want to change the paths to your JS/CSS sources -->
     <script>
@@ -270,6 +274,13 @@
 	<p>
 		Oh, wouldn't you like to know 👀
 	</p>
+
+	<button class="mdc-button foo-button">
+	  <div class="mdc-button__ripple"></div>
+	  <span class="mdc-button__label">Button</span>
+	</button>
+
+	<script type="text/javascript">mdc.ripple.MDCRipple.attachTo(document.querySelector<HTMLElement>('.foo-button'));</script>
 
 	<div class="subsection"  id="projstructure"  data-href="index.html#projstructure" data-level="1" class="side-nav-header">
 	<h3>Project Structure</h3>
