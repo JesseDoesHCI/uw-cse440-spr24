@@ -35,8 +35,8 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
 
-p > td {
-    margin-bottom: 0px;
+table p {
+    margin-bottom: 5px;
 }
 
 
