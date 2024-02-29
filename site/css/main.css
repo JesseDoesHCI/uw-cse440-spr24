@@ -63,6 +63,14 @@ li > ul,
 li > ol {
   margin-bottom: 0; }
 
+table {
+    width: 80%;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
 /**
  * Headings
  */
