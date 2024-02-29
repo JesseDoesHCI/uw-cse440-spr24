@@ -39,6 +39,10 @@ table p {
     margin-bottom: 5px;
 }
 
+p ~ ul {
+    margin-top: -10px;
+}
+
 
 /**
  * Images
