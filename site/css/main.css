@@ -29,11 +29,16 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
+
+p > td {
+    margin-bottom: 0px;
+}
+
 
 /**
  * Images
@@ -75,7 +80,10 @@ tr, td {
  * Headings
  */
 h5, h6 {
-  font-weight: 300; }
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: underline; 
+   }
 
 h1, h2, h3, h4 {
   font-weight: 600; }
