@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CSE 440: Introduction to HCI</title>
+    <title>CSE 440: Introduction to HCI - Spring 2024</title>
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Include this script in order to dynamically load CSS and JS files -->
     <!-- Only edit if you want to change the paths to your JS/CSS sources -->
@@ -125,6 +129,7 @@
      <h2> This webpage is DEEPLY under construction.</h2> 
    	 <p>Overall structure is correct, but specific details are subject to change. -JM</p>
    	 <p>If you would like to preview what this course will look like, please feel free to check out <a href="https://courses.cs.washington.edu/courses/cse440/24wi/">last quarter's course website</a></p> 
+     
      
      <h2>Spring 2024 Syllabus</h2>
 
@@ -269,7 +274,14 @@
 	<p>
 		Oh, wouldn't you like to know 👀
 	</p>
+<!-- 
+	<button class="mdc-button foo-button">
+	  <div class="mdc-button__ripple"></div>
+	  <span class="mdc-button__label">Button</span>
+	</button>
 
+	<script type="text/javascript">mdc.ripple.MDCRipple.attachTo(document.querySelector<HTMLElement>('.foo-button'));</script>
+ -->
 	<div class="subsection"  id="projstructure"  data-href="index.html#projstructure" data-level="1" class="side-nav-header">
 	<h3>Project Structure</h3>
 	<p>Projects are organized around four assignments, each consisting of several milestones:</p>
@@ -328,7 +340,9 @@
 
 		<p>In total, the Core Content will account for 3.7/4.0 of your final score in the class.</p>
 
+
 		<h3>The EXP System</h3>
+
 		<p>As we dive into design process throughout the quarter, you’ll quickly learn that good design involves following the right steps, but <i>great</i> design requires an extra layer of thoughtfulness and extension beyond simply “checking all the boxes”. In an effort to reflect this in this course’s grading scheme, we’re introducing a new element to the course called EXP. </p>
 
 		<p>EXP, which can be short for a lot of things– Experience Points, Extension Points, Excellence Points, and so on– will be a set of additional points you can earn throughout the quarter by engaging in <i>great</i> design practice.</p>
@@ -422,26 +436,40 @@
 		<p>Throughout the quarter, you may encounter situations <i>outside</i> of this class where you can apply what you’ve learned– and we’d love to hear about it! Share that experience with us (hopefully with some documentation of it!) and you might just get some EXP for it. (The better the application, the more EXP you’ll earn!) </p>
 
 
-	<div class="subsection" id="submissions"  data-href="index.html#submissions" data-level="1" class="side-nav-header">
-	<h3 >Submissions</h3>
-	<p>Submissions should be in PDF format (i.e., not plain text, not Word). The PDF should be printable, containing everything we need to review and grade the assignment (e.g., your names). We will use <a href="https://www.gradescope.com/courses/448544" target="_blank" rel="noopener"><span style="font-weight: bold;">Gradescope</span></a> for groups to submit their assignments and receive feedback.&nbsp;</p>
-	<!-- 
-	<h4>Late Policy</h4>
-	<P>
-		Generally, we expect that all assignments will be turned in on time according to their deadline on Gradescope. This is a fast-paced course, with many elements of the project depending on prior elements. Similarly, the course staff's ability to give feedback relies on timely submissions (e.g., course staff will often review your submission quickly after they are submitted to be ready for activities in section or lecture).
-	</P>
-	<P>
-		With that being said, if your group feels that you could really benefit from an extension or there is some kind of emergency impacting your ability to turn in assignments, please contact us BEFORE the submission deadline. We will do our best to be flexible and work with you to come up with a plan so that your group stays on track. Except in extreme circumstances, we will typically not be able to give an extension of more than 1 day.
-	</p>
-	 -->
+		<div class="subsection" id="submissions"  data-href="index.html#submissions" data-level="1" class="side-nav-header">
+		<h3 >Submissions</h3>
+		<p>Submissions should be in PDF format (i.e., not plain text, not Word). The PDF should be printable, containing everything we need to review and grade the assignment (e.g., your names). We will use <a href="https://www.gradescope.com/courses/448544" target="_blank" rel="noopener"><span style="font-weight: bold;">Gradescope</span></a> for groups to submit their assignments and receive feedback.&nbsp;</p>
+		<!-- 
+		<h4>Late Policy</h4>
+		<P>
+			Generally, we expect that all assignments will be turned in on time according to their deadline on Gradescope. This is a fast-paced course, with many elements of the project depending on prior elements. Similarly, the course staff's ability to give feedback relies on timely submissions (e.g., course staff will often review your submission quickly after they are submitted to be ready for activities in section or lecture).
+		</P>
+		<P>
+			With that being said, if your group feels that you could really benefit from an extension or there is some kind of emergency impacting your ability to turn in assignments, please contact us BEFORE the submission deadline. We will do our best to be flexible and work with you to come up with a plan so that your group stays on track. Except in extreme circumstances, we will typically not be able to give an extension of more than 1 day.
+		</p>
+		 -->
+		</div>
+	
+	
+  	<div class="subsection" id="statements"  data-href="index.html#statements" data-level="1" class="side-nav-header">
+	  <h3 >Contribution Statements</h3>
+		
+		<P>
+		Please write and submit a <b>personal contribution statement</b> using <a>this Google Form</a> every time that you 
+		submit a group assignment. This allows you to personally specify what proportion you contributed to the work done by the group. 
+		<b>Please note that we will not grade submissions where this statement is missing from any group member.</b> There will be a check in Gradescope reminding you that every group member must do this.
+		</p>
+			<P>
+		An example contribution statement for Assignment 1b is:
+			<ul><li>
+		I contributed 30% of the work towards this assignment. I researched the background of the problem, outlined the content of the document, wrote the first version of one paragraph, and also selected the images to be included.
+		</li></ul>
+		</P>
+		<P>
+		Please know that we do not expect everyone to contribute equally to each assignment, but you should try to work as a team and support each other. Please come to us early if you are dealing with unresolved issues regarding unequal contributions. During the quarter, we may solicit private feedback regarding group dynamics from members.
+		</P>
+	  </div>
 	</div>
-	
-	
-  <div class="subsection" id="statements"  data-href="index.html#statements" data-level="1" class="side-nav-header">
-  <h3 >Contribution Statements</h3>
-	Under Construction
-  </div>
-	    </div>
 
 	<div class="section" id="acknowledgements"  data-href="index.html#acknowledgements" data-level="0" class="side-nav-header">
 	<h2 >Acknowledgements</h2>
