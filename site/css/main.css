@@ -147,15 +147,15 @@ pre > code {
  */
 
 details {
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    box-shadow: darkgray -1em 1em;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: darkgray -5px 5px;
 }
 
 summary {
-    background-color: lightgray;
-    border: 0px solid lightgray;
-    border-radius: 5px;
+    background-color: #333;
+    border: 0px solid #333;
+    border-radius: 10px;
 }
 
 /**
