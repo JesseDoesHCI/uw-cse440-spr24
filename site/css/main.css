@@ -141,6 +141,23 @@ pre > code {
   padding-left: 0; }
 
 
+
+/**
+ * Accordions
+ */
+
+details {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: darkgray -1em 1em;
+}
+
+summary {
+    background-color: lightgray;
+    border: 0px solid lightgray;
+    border-radius: 5px;
+}
+
 /**
  * Site header
  */
