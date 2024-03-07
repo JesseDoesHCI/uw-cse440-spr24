@@ -147,14 +147,16 @@ pre > code {
  */
 
 details {
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: darkgray -5px 5px;
+    box-shadow: lightgray -3px 3px;
+
+    padding: 5px;
 }
 
 summary {
-    background-color: #ccc;
-    border: 0px solid #ccc;
+    background-color: #ddd;
+    border: 0px solid #ddd;
     border-radius: 10px;
 }
 
