@@ -143,7 +143,7 @@ pre > code {
 
 
 /**
- * Accordions
+ * Assignment Accordions
  */
 
 details {
@@ -161,6 +161,27 @@ summary {
 
     padding: 5px;
 }
+
+table.assignment-header {
+    border: 0px solid black;
+    width: 100%;
+}
+
+.assignment-summary h2 {
+    font-weight: 400;
+}
+
+td.assignment-summary {
+    width: 95%;
+}
+
+td.accordion-expand {
+    font-size: large;
+    color: mediumpurple;
+    text-align: center;
+}
+
+
 
 /**
  * Site header
