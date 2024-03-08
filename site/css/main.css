@@ -160,11 +160,17 @@ summary {
     border-radius: 10px;
 
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 table.assignment-header {
     border: 0px solid black;
     width: 100%;
+}
+
+details p,h3 {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .assignment-header tr,td {
@@ -176,7 +182,7 @@ table.assignment-header {
 }
 
 td.assignment-summary {
-    width: 95%;
+    width: 90%;
 }
 
 td.accordion-expand {
