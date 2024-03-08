@@ -167,6 +167,10 @@ table.assignment-header {
     width: 100%;
 }
 
+.assignment-header tr,td {
+    border: 0px solid black;
+}
+
 .assignment-summary h2 {
     font-weight: 400;
 }
