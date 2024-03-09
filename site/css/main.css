@@ -163,6 +163,8 @@ summary {
     margin-bottom: 10px;
 }
 
+summary::-webkit-details-marker { display: none }
+
 table.assignment-header {
     border: 0px solid black;
     width: 100%;
