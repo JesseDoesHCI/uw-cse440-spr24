@@ -168,7 +168,7 @@ table.assignment-header {
     width: 100%;
 }
 
-details p,h3 {
+details p, details h3 {
     margin-left: 10px;
     margin-right: 10px;
 }
