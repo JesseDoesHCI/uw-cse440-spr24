@@ -186,9 +186,10 @@ td.assignment-summary {
 }
 
 td.accordion-expand {
+    width: 10%;
     font-size: large;
     color: mediumpurple;
-    text-align: center;
+    text-align: right;
 }
 
 
