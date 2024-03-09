@@ -87,7 +87,7 @@ h5, h6 {
    }
 
 h4 {
-    color: darkslategray;
+    color: darkgray;
     text-decoration: underline;
 }
 
@@ -173,7 +173,7 @@ details p, details h3 {
     margin-right: 10px;
 }
 
-.assignment-header tr,td {
+.assignment-header tr,.assignment-header td {
     border: 0px solid black;
 }
 
