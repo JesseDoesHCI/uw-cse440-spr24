@@ -170,7 +170,7 @@ table.assignment-header {
     width: 100%;
 }
 
-details p, details h3 {
+details * {
     margin-left: 10px;
     margin-right: 10px;
 }
