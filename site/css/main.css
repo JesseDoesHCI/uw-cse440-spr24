@@ -206,7 +206,7 @@ td.accordion-expand {
 table.floating-rc-labels, 
 table.floating-rc-labels tr,
 table.floating-rc-labels td.rc-label,
-table.floating-rc-labels tr td
+table.floating-rc-labels tr.rc-label td
 {
     border: 0px solid;
 }
