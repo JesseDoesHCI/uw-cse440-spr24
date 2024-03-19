@@ -203,9 +203,14 @@ td.accordion-expand {
 /**
  * Table Styles
  */
-table.floating-rc-labels, table.floating-rc-labels tr, table.floating-rc-labels td.rc-label {
+table.floating-rc-labels, 
+table.floating-rc-labels tr,
+table.floating-rc-labels td.rc-label,
+table.floating-rc-labels tr td
+{
     border: 0px solid;
 }
+
 td.rc-label {
     padding-right: 2px;
 }
