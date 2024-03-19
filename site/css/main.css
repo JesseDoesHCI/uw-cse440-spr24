@@ -152,6 +152,7 @@ details {
     box-shadow: lightgray -3px 3px;
 
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -161,9 +162,9 @@ summary {
     border: 0px solid lavender;
     border-radius: 10px;
 
-    padding: 5px;
+    padding: 10px;
 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: -5px;
     margin-right: -5px;
 }
@@ -175,10 +176,10 @@ table.assignment-header {
     width: 100%;
 }
 
-/*details p, details h3, details h4, details h5, details ul, details table {
-    margin-left: 10px;
-    margin-right: 10px;
-}*/
+.assignment-header * {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
 .assignment-header tr,.assignment-header td {
     border: 0px solid black;
