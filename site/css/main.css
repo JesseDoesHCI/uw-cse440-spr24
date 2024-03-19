@@ -162,6 +162,7 @@ summary {
     border-radius: 10px;
 
     padding: 5px;
+
     margin-bottom: 10px;
     margin-left: -5px;
     margin-right: -5px;
@@ -198,6 +199,16 @@ td.accordion-expand {
     text-align: right;
 }
 
+
+/**
+ * Table Styles
+ */
+table.floating-rc-labels, table.floating-rc-labels tr, table.floating-rc-labels td.rc-label {
+    border: 0px solid;
+}
+td.rc-label {
+    padding-right: 2px;
+}
 
 
 /**
