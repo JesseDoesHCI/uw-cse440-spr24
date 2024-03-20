@@ -31,7 +31,7 @@ def re_clean_time(txt):
 
 
 def main():
-	with open(argv[1],'w') as fp:
+	with open(argv[1],'r+') as fp:
 		htmlText = fp.read()
 
 		cleaned_text = re_clean_time(htmlText)
