@@ -16,11 +16,11 @@ def re_clean_time(txt):
 	# handle time ranges
 	range_match = r'\d+:\d+-\d+:\d+'
 
-	txt = re.sub(range_match,lambda m: wrap(m[0],"span",{"class":"time"}),txt)
+	txt = re.sub(range_match,lambda m: wrap(m[0],"span",{"class":"time"}) + "<br>",txt)
 
 	# handle individual times not in ranges AFTER ranges are handled
 	indiv_match = r'\d+:\d\d(?:[^<-])'
-	txt = re.sub(indiv_match,lambda m: wrap(m[0],"span",{"class":"time"}),txt)
+	txt = re.sub(indiv_match,lambda m: wrap(m[0],"span",{"class":"time"}) + "<br>",txt)
 
 	# convert 24h to 12h
 	generic_match = r'\d+:\d+'
