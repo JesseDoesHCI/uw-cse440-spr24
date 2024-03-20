@@ -29,12 +29,22 @@ def re_clean_time(txt):
 	return txt
 
 
+# replace "//" with a line break
+def re_force_breaks(txt):
+	return re.sub(r'//','<br>',txt)
+
+def full_clean(htmlText):
+	txt = re_clean_time(htmlText)
+	txt = re_force_breaks(txt)
+
+	return txt
+
 
 def main():
 	with open(argv[1],'r+') as fp:
 		htmlText = fp.read()
 
-		cleaned_text = re_clean_time(htmlText)
+		cleaned_text = full_clean(htmlText)
 
 	with open(argv[1],'w') as outfp:
 		outfp.write(cleaned_text)
