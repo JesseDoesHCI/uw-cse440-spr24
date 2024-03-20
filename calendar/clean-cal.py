@@ -36,7 +36,8 @@ def main():
 
 		cleaned_text = re_clean_time(htmlText)
 
-		fp.write(cleaned_text)
+	with open(argv[1],'w') as outfp:
+		outfp.write(cleaned_text)
 
 
 
