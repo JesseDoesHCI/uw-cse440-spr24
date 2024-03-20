@@ -29,9 +29,9 @@ def re_clean_time(txt):
 	return txt
 
 
-# replace "//" with a line break
+# replace "||" with a line break
 def re_force_breaks(txt):
-	return re.sub(r'//','<br>',txt)
+	return re.sub(r'\|\|','<br>',txt)
 
 def full_clean(htmlText):
 	txt = re_clean_time(htmlText)
