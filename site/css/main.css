@@ -77,6 +77,10 @@ tr, td {
     border: 1px solid black;
 }
 
+p ul, p ol {
+    margin-top: -10px;
+}
+
 /**
  * Headings
  */
