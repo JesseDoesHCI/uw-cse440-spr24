@@ -7,7 +7,7 @@ body {
   justify-content: center;
 }
 
-header.custom-header {
+div.custom-header {
   background-color: #f5f4f7;
 /*  display: flex;*/
   align-items: center;
