@@ -11,6 +11,8 @@
  
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+
 
     <!-- This script dynamically loads CSS and JS files from the course base directory -->
     <!-- Only edit if you want to change the paths to your JS/CSS sources -->
@@ -46,27 +48,153 @@
     </header>
 
     <div class="container">
-          
-      <!-- Begin page content -->
-    
-      <!-- Edit main page header -->
-      <h1>Content title</h1>    
-
-      <!-- Edit main page content -->
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-        mollit anim id est laborum.
-      </p>
-
-    
-      <!-- End page content -->
-
+    <header>
+      <div class="header-text">
+        <div class="title">
+          <div class="waviy">
+            <span class="letter">L</span>
+            <span class="letter">E</span>
+            <span class="letter">A</span>
+            <span class="letter">R</span>
+            <span class="letter">N</span>
+            <span class="letter">I</span>
+            <span class="letter">V</span>
+            <span class="letter">E</span>
+            <span class="letter">R</span>
+            <span class="letter">S</span>
+            <span class="letter">E</span>
+          </div>
+        </div>
+        <h4>Organize your thoughts, expand your horizons - Master your Learniverse</h4>
+      </div>
+      <div class="header-right">
+        <img src="Logo.png" alt="Logo" class="header-logo">
+      </div>
+    </header>
+    <h2> Team Members </h2>
+    <div class="col-md-2">
+      <img src="sama.jpg" alt="A picture of Sama">
+      <br>
+      <span>Sama Khalid</span>
     </div>
+    <div class="col-md-2">
+      <img src="russell.png" alt="A picture of Russell">
+      <br>
+      <span>Russell Nyarko</span>
+    </div>
+    <div class="col-md-2">
+      <img src="joseph.png" alt="A picture of Joseph">
+      <br>
+      <span>Joseph Jang</span>
+    </div>
+    <div class="col-md-2">
+      <img src="joey.png" alt="A picture of Joey">
+      <br>
+      <span>Joey Trudeau</span>
+    </div>
+    <h2>Problem & Design Overview </h2>
+    <div class="introduction">
+      <p>In today’s academic environment, students are increasingly
+        challenged by the need to manage and track assignments across
+        multiple digital platforms. This can lead to missed deadlines and
+        increased stress, particularly for those who may also face accessibility
+        barriers.
+        <br>
+        <br>
+        Our design addresses these challenges by providing a unified task
+        management tool that not only aggregates assignments from various
+        platforms into a single, user-friendly interface but also enhances
+        accessibility</p>
+        <img src="introduction.png" alt="a figure with multiple tasks around it">
+    </div>
+    <h2>Design Research Process</h2>
+    <div class="design-research">
+      <div class="text-content">
+          <p>The primary goal of our design research was to enhance online learning platforms to better serve college students with learning disabilities. Understanding the unique challenges and needs of this demographic is crucial for developing effective digital learning tools. Our target users included students who frequently engage with these platforms during their coursework, as this is when their interaction with the interface and its features is most critical.</p>
+          <ul>
+              <li>We performed an interview with an acquaintance who is in the <strong>4th year</strong> of their engineering degree. They were clinically diagnosed with ADHD and are currently medicated for it so they can provide firsthand insights into the usability and accessibility of these platforms.</li>
+              <li>The participant for this test was a <strong>25-year-old male</strong>, a former college student currently residing in Chicago. He was selected specifically because of his recent educational experience, which aligns closely with the target demographic of our prototype. His insights are valuable in understanding how our design could enhance the academic and daily life of college students.</li>
+              <li>The participant was an <strong>18-year-old female</strong> who is preparing to enter college. She has already gained some college experience through a Running Start program, making her insights particularly valuable for anticipating the needs of future college students. Our goal was to understand what features and functionalities would be most beneficial for her as she transitions to full-time college life.</li>
+          </ul>
+      </div>
+      <img src="designresearch.png" alt="Design Research Process">
+  
+
+    <h2>Research Design Key Insights</h2>
+
+    <section>
+      <h3>Underutilization of Features</h3>
+      <p>
+        Our findings revealed that over half of the features available on platforms like Canvas went unused. This insight emerged from direct observations of a participant navigating the platform, highlighting a significant gap between available resources and their actual application. This underutilization points towards either a lack of awareness about these features or their irrelevance to the students’ needs.
+      </p>
+    </section>
+
+    <section>
+      <h3>Complexity in Customization</h3>
+      <p>
+        Participants expressed difficulties in customizing the interface to suit their learning styles, such as color-coding calendars and assignment layouts. This issue was particularly evident when a participant attempted to personalize their calendar, but found the process cumbersome and restrictive. The insight underscores the need for more flexible and user-friendly customization options to accommodate diverse learning preferences.
+      </p>
+    </section>
+
+    <section>
+      <h3>Inadequate Accommodations</h3>
+      <p>
+        The standard accommodations for test-taking, such as extended time, were often not sufficient. Participants noted that if the test design itself is flawed or not tailored for diverse learning needs, simply adding more time does not address the fundamental issues. This was highlighted through participants' feedback on their actual experiences during assessments, indicating a need for more thoughtful and varied accommodation strategies.
+      </p>
+    </section>
+    <h2>Iterative Design Process Overview</h2>
+    <section class="iterative-design">
+      <p>Our design process focused on improving and expanding upon the user experience for learning platforms and we came up with six tasks that highlight this goal. Here is each task as follows:</p>
+      <ul>
+        <li>Being able to export tasks from learning platforms to a user’s personal calendar</li>
+        <li>Being able to have more focus on specific tasks</li>
+        <li>Having an explanation of new/existing features when starting learning software</li>
+        <li>Being able to create a management system within the learning software</li>
+        <li>Being able to fill out an unfinished course with placeholder assignments</li>
+        <li>Being able to bring various platforms together to make all assignments accessible from one place</li>
+      </ul>
+      <div class="prototype-container">
+        <p>These tasks allowed us to have a stronger focus for the next step in the design process which was to create the paper prototype. Our paper prototype design encompasses two primary tasks which were to bring together various platforms to make all assignments accessible from one place and allow users to create more organized and focused learning sessions. Below is our paper prototype of the main webpage that our users see when utilizing Learninverse:</p>
+        <img src="paper.png" alt="Paper prototype">
+      </div>
+      <p>With our paper prototype, we then conducted usability testing with three participants to research how effective the design was at communicating to the user. Seeing how these participants interacted with our designs in person we were then able to deduce revisions that we deemed to address the negative incidents whether it be adding error prompts or adding buttons for better user flow experience. After solidifying our revised design, we then were finally able to design our digital mockup of our Learninverse webpage</p>
+      <div class="mockup-container">
+        <img src="mockup.png">
+        <span class="second-image"><img src="mockup-2.png"></span>
+      </div>
+    </section>
+    <h2>Iterative Design Key Insights</h2>
+    <div class="key-insights">
+      <h3>Visual Impairment Inclusivity</h3>
+      <p>With our original design, we assumed that our user base did not include individuals with visual impairments and all users would be able to see all the features. To address this oversight and make the tool more accessible, a popup window feature that reads aloud the content displayed on the screen was introduced. The realization of needing this feature emerged during a group meeting where one of us mentioned the possibility of blind users navigating through websites. This then prompted us to make the popup in our digital design.</p>
+
+      <h3>Improving Visual Indicators</h3>
+      <p>A participant expressed confusion over whether it was possible to list more than one important assignment per website. This issue was crucial as it directly impacts the core functionality of the task management tool, which is to prioritize and organize academic tasks effectively. The interface was revised to include clearer visual indicators that show users how to add multiple important assignments. By making this revision, the prototype became more intuitive, increasing user satisfaction by clearly communicating the available functionalities.</p>
+
+      <h3>Improving the User-Experience</h3>
+      <p>A participant found it difficult to set up recurring tasks for her weekly study sessions. The process for setting up recurring tasks was improved by simplifying the user interface and adding more intuitive controls, such as dropdown menus with pre-set options for recurrence patterns. This revision is pivotal because recurring tasks are a fundamental feature of productivity tools, especially for students who have regular commitments like classes or study groups. Enhancing this feature improves the prototype’s utility by making it easier for users to organize their academic and personal schedules effectively, thus encouraging continued use of the tool and aiding in better time management.</p>
+    </div>
+    <h2>Resulting Design:</h2>
+    <div class="resulting-design">
+      <p>First visit: A prompt for a screen reader will be read out and ask users yes/no for its enabling for the website.</p>
+      <img src="firstVisit.png" alt="Screen Reader Prompt">
+
+      <p><strong>1. Landing Page:</strong> When landing and pressing the large + on the main screen, you will be prompted to enter the URL for a course or an entire website to import into Learniverse. Upon invalid URL, you will be asked to re-enter.</p>
+      <img src="pastecourse.png" alt="Paste Course URL">
+
+      <p><strong>2. Dashboard View:</strong> Once a URL is added, it will either show the course you added or the website you added in the dashboard. You will also notice a plus in the top right of the box, and upon clicking it, you will be prompted to add an assignment with multiple parameters to allow for placeholder assignments to be created.</p>
+      <img src="addcourse.png" alt="Add Course URL">
+
+      <p><strong>3. Multiple Windows:</strong> When repeatedly clicking the plus, you can have multiple windows of either courses or websites. For example, you can add Canvas alongside Gradescope as shown in the images below:</p>
+      <img src="addassig.png" alt="Add Multiple Windows">
+
+      <p><strong>4. Schedule Propagation:</strong> Notice that added assignments also propagate the schedule at the bottom. When hovering over any assignment, you can see a star appear that is selectable. When selecting it, the assignment will be shown in the important assignments at the top.</p>
+      <img src="fourthpoint.png" alt="Schedule Propagation">
+
+      <p><strong>5. Import/Export Functionality:</strong> You can also see that whenever you hover down in the bottom of our schedule, it allows for import or export to other personal planners to either fill out the schedule on Learniverse more, or to allow for Learniverse info to be added to personal planners.</p>
+      <img src="fifthpoint.png" alt="Import/Export Functionality">
+    </div>
+  </div>
 
     <footer class="site-footer">
     <!-- Javascript will load the footer code here. -->
