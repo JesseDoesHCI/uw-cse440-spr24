@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ece0f5;
-  display: flex;
+/*  display: flex;*/
   justify-content: center;
 }
 
-header {
+header.custom-header {
   background-color: #f5f4f7;
-  display: flex;
+/*  display: flex;*/
   align-items: center;
   justify-content: space-between;
   width: 100%;
